@@ -1,0 +1,50 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+
+}
+
+h1 {text-align: center;color: #fff;font-family: "Times New Roman", Times, serif;font-size: 80px;
+
+  }
+
+.film {
+}
+
+.top {position: relative;margin:-8px -8px 10px;padding: 1px;background-color: rgb(110,100,100);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+#header{
+  color: white;
+}
+
+.searchbar {position: -webkit-sticky; /* Safari */position: sticky;top: 20px;margin-left: 20px;
+
+  }
+
+.categories{margin-right: 20px;margin-left: 20px;text-align: center;border-right: 6px solid #4CAF50;border-left: 6px solid #4CAF50;background-color: lightgrey;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: "Times New Roman", Times, serif;font-size: 50px;
+  }
+
+/* Style buttons */
+.btn {padding: 16px 20px; /* Some padding */cursor: pointer; /* Mouse pointer on hover */color: white; /* White text */border: none; /* Remove borders */background-color: #4CAF50; /* Blue background */box-shadow: 5px 5px 5px grey;font-size: 16px; /* Set a font size */
+  }
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #4CAF50;
+}
+
+div.card {
+  display: inline-block;width: 250px;margin: 20px;text-align: center;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+div.header {padding: 10px;color: white;background-color: #4CAF50;font-size: 40px;
+  }
+
+div.container {
+  padding: 10px;background-color: lightgrey;
+  }
+
+footer {position: relative;margin:10px -8px -8px -8px;padding: 20px;text-align: center;background-color: rgb(110,100,100);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
